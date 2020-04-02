@@ -6,10 +6,13 @@ int main()
 {
 
   double num1 = 0; 
+  double num2 = 0;
   std::cout << "enter a number"; 
   std::cin >> num1; 
+  std::cout<< "enter a second number";
+  std::cin >> num2;
   
-  double num2 = 5 + num1; 
-  std::cout << " 5 + your number is " << num2;
+  double output = num2 + num1;
+  std::cout << " Adding your numbers gives " << output;
     
 }
