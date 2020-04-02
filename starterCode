@@ -12,8 +12,9 @@ int main()
   std::cout<< "enter a second number";
   std::cin >> num2;
   
-  double output = num2 * num1;
+  double output = num2 / num1;
   
-  std::cout << " times your numbers gives " << output;
+  std::cout << " dividing your numbers gives " << output;
     
 }
+
