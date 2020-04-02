@@ -12,8 +12,19 @@ int main()
   std::cout<< "enter a second number";
   std::cin >> num2;
   
-  int output = num2%num1;
- 
-  std::cout << " modulus of your numbers gives " << output;
+  int output = num2 + num1;
+  std::cout << " Adding your numbers gives " << output;
     
+    output = num2 - num1;
+  std::cout << " Subtracting your numbers gives " << output;
+  
+   output = num2 / num1;
+  std::cout << " Dividing your numbers gives " << output;
+  
+  output = num2 * num1;
+  std::cout << " Multipying your numbers gives " << output;
+  
+  output = num2 % num1;
+  std::cout << " Modulus of your numbers gives " << output;
+
 }
