@@ -12,7 +12,8 @@ int main()
   std::cout<< "enter a second number";
   std::cin >> num2;
   
-  double output = num2 + num1;
-  std::cout << " Adding your numbers gives " << output;
+  double output = num2 - num1;
+  
+  std::cout << " subtracting your numbers gives " << output;
     
 }
